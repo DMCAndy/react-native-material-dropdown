@@ -729,7 +729,7 @@ export default class Dropdown extends PureComponent {
         <TouchableOpacity {...touchableProps}>
           <View pointerEvents='box-only'>
             {this.renderBase(props)}
-            {this.renderRipple()}
+            {/* {this.renderRipple()} */}
           </View>
         </TouchableOpacity>
 
